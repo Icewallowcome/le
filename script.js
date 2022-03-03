@@ -159,7 +159,7 @@ function animateLoop(){
     difference = dateDiffInDays(a, b);
     ctx.font = '120px serif';
     ctx.textAlign = "center";
-    ctx.fillText(difference + "лера лучшая", canvas.width / 2, canvas.height / 2);
+    ctx.fillText(difference, canvas.width / 2, canvas.height / 2);
 }
 animateLoop();
 var clicks = 0;
